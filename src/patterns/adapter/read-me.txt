@@ -1,0 +1,4 @@
+Reference Links:
+https://refactoring.guru/design-patterns/adapter/java/example
+https://www.digitalocean.com/community/tutorials/adapter-design-pattern-java
+https://www.tutorialspoint.com/design_pattern/adapter_pattern.htm
