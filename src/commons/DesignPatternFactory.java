@@ -13,6 +13,8 @@ public class DesignPatternFactory {
                 return new FactoryPatternService();
             case STRATEGY:
                 return new StrategyPatternService();
+            case PROXY:
+                return new ProxyPatternService();
             default:
                 return null;
         }
