@@ -1,7 +1,8 @@
-package commons;
+package patterns.composite;
 
 import java.util.List;
 
+import commons.DesignPatternService;
 import patterns.composite.model.AirPods;
 import patterns.composite.model.Box;
 import patterns.composite.model.Laptop;

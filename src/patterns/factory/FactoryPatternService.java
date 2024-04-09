@@ -1,7 +1,6 @@
-package commons;
+package patterns.factory;
 
-import patterns.factory.MessageDeliveryService;
-import patterns.factory.MessageDeliveryServiceFactory;
+import commons.DesignPatternService;
 import util.Constants.MessageSender;
 
 public class FactoryPatternService implements DesignPatternService {

@@ -1,5 +1,6 @@
-package commons;
+package patterns.adapter;
 
+import commons.DesignPatternService;
 import patterns.adapter.service.AudioPlayer;
 import patterns.adapter.service.MediaAdapter;
 import patterns.adapter.service.MediaPlayer;

@@ -1,5 +1,6 @@
-package commons;
+package patterns.proxy;
 
+import commons.DesignPatternService;
 import patterns.proxy.model.User;
 import patterns.proxy.service.UserDbService;
 import patterns.proxy.service.UserProxyService;

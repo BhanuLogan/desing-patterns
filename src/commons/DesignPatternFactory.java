@@ -1,5 +1,10 @@
 package commons;
 
+import patterns.adapter.AdapterPatternService;
+import patterns.composite.CompositePatternService;
+import patterns.factory.FactoryPatternService;
+import patterns.proxy.ProxyPatternService;
+import patterns.strategy.StrategyPatternService;
 import util.Constants.DesignPattern;
 
 public class DesignPatternFactory {

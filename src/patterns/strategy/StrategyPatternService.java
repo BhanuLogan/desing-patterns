@@ -1,6 +1,6 @@
-package commons;
+package patterns.strategy;
 
-import patterns.strategy.Mobile;
+import commons.DesignPatternService;
 import patterns.strategy.os.Andriod;
 import patterns.strategy.os.Ios;
 import patterns.strategy.processor.MediaTek;
