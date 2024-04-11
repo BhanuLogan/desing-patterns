@@ -3,7 +3,7 @@ package util;
 public class Constants {
 
     public enum DesignPattern {
-        ADAPTER, COMPOSITE, FACTORY, STRATEGY, PROXY
+        ADAPTER, COMPOSITE, FACTORY, STRATEGY, PROXY, FACADE 
     }
 
     public enum MediaType {

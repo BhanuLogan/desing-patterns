@@ -2,6 +2,7 @@ package commons;
 
 import patterns.adapter.AdapterPatternService;
 import patterns.composite.CompositePatternService;
+import patterns.facade.FacadePatternService;
 import patterns.factory.FactoryPatternService;
 import patterns.proxy.ProxyPatternService;
 import patterns.strategy.StrategyPatternService;
@@ -20,6 +21,8 @@ public class DesignPatternFactory {
                 return new StrategyPatternService();
             case PROXY:
                 return new ProxyPatternService();
+            case FACADE:
+                return new FacadePatternService();
             default:
                 return null;
         }
