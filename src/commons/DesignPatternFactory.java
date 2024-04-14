@@ -1,6 +1,7 @@
 package commons;
 
 import patterns.adapter.AdapterPatternService;
+import patterns.bridge.BridgePatternService;
 import patterns.composite.CompositePatternService;
 import patterns.facade.FacadePatternService;
 import patterns.factory.FactoryPatternService;
@@ -23,6 +24,8 @@ public class DesignPatternFactory {
                 return new ProxyPatternService();
             case FACADE:
                 return new FacadePatternService();
+            case BRIDGE:
+                return new BridgePatternService();
             default:
                 return null;
         }
