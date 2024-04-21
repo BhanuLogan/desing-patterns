@@ -2,6 +2,7 @@ package commons;
 
 import patterns.adapter.AdapterPatternService;
 import patterns.behavioral.chainOfResponsibility.ChainOfResponsibilityPatternService;
+import patterns.behavioral.template.TemplatePatternService;
 import patterns.bridge.BridgePatternService;
 import patterns.composite.CompositePatternService;
 import patterns.decorator.DecoratorPatternService;
@@ -32,6 +33,8 @@ public class DesignPatternFactory {
                 return new DecoratorPatternService();
             case CHAIN_OF_RESPONSIBILITY:
                 return new ChainOfResponsibilityPatternService();
+            case TEMPLATE:
+                return new TemplatePatternService();
             default:
                 return null;
         }
