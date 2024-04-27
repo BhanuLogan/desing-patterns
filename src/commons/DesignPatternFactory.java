@@ -4,6 +4,7 @@ import patterns.adapter.AdapterPatternService;
 import patterns.behavioral.chainOfResponsibility.ChainOfResponsibilityPatternService;
 import patterns.behavioral.command.CommandPatternService;
 import patterns.behavioral.mediator.MediatorPatternService;
+import patterns.behavioral.memento.MementoPatternService;
 import patterns.behavioral.observer.ObserverPatternService;
 import patterns.behavioral.strategy.StrategyPatternService;
 import patterns.behavioral.template.TemplatePatternService;
@@ -44,6 +45,8 @@ public class DesignPatternFactory {
                 return new MediatorPatternService();
             case COMMAND:
                 return new CommandPatternService();
+            case MEMENTO:
+                return new MementoPatternService();
             default:
                 return null;
         }
