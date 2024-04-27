@@ -4,7 +4,7 @@ import util.Constants.DesignPattern;
 
 public class App {
     public static void main(String[] args) {
-        DesignPatternService service = DesignPatternFactory.getInstance(DesignPattern.OBSERVER);
+        DesignPatternService service = DesignPatternFactory.getInstance(DesignPattern.MEDIATOR);
         service.runExample();
     }
 }
