@@ -1,7 +1,7 @@
-package patterns.strategy;
+package patterns.behavioral.strategy;
 
-import patterns.strategy.os.Os;
-import patterns.strategy.processor.Processor;
+import patterns.behavioral.strategy.os.Os;
+import patterns.behavioral.strategy.processor.Processor;
 
 public class Mobile {
     private String model;

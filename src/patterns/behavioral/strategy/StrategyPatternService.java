@@ -1,10 +1,10 @@
-package patterns.strategy;
+package patterns.behavioral.strategy;
 
 import commons.DesignPatternService;
-import patterns.strategy.os.Andriod;
-import patterns.strategy.os.Ios;
-import patterns.strategy.processor.MediaTek;
-import patterns.strategy.processor.SnapDragon;
+import patterns.behavioral.strategy.os.Andriod;
+import patterns.behavioral.strategy.os.Ios;
+import patterns.behavioral.strategy.processor.MediaTek;
+import patterns.behavioral.strategy.processor.SnapDragon;
 
 public class StrategyPatternService implements DesignPatternService {
 

@@ -1,4 +1,4 @@
-package patterns.strategy.processor;
+package patterns.behavioral.strategy.processor;
 
 public class MediaTek implements Processor {
 

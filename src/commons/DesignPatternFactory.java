@@ -2,8 +2,10 @@ package commons;
 
 import patterns.adapter.AdapterPatternService;
 import patterns.behavioral.chainOfResponsibility.ChainOfResponsibilityPatternService;
+import patterns.behavioral.command.CommandPatternService;
 import patterns.behavioral.mediator.MediatorPatternService;
 import patterns.behavioral.observer.ObserverPatternService;
+import patterns.behavioral.strategy.StrategyPatternService;
 import patterns.behavioral.template.TemplatePatternService;
 import patterns.bridge.BridgePatternService;
 import patterns.composite.CompositePatternService;
@@ -11,7 +13,6 @@ import patterns.decorator.DecoratorPatternService;
 import patterns.facade.FacadePatternService;
 import patterns.factory.FactoryPatternService;
 import patterns.proxy.ProxyPatternService;
-import patterns.strategy.StrategyPatternService;
 import util.Constants.DesignPattern;
 
 public class DesignPatternFactory {
@@ -41,6 +42,8 @@ public class DesignPatternFactory {
                 return new ObserverPatternService();
             case MEDIATOR:
                 return new MediatorPatternService();
+            case COMMAND:
+                return new CommandPatternService();
             default:
                 return null;
         }
