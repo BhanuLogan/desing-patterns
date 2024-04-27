@@ -1,4 +1,4 @@
-package patterns.strategy.processor;
+package patterns.behavioral.strategy.processor;
 
 public class SnapDragon implements Processor {
 

@@ -1,4 +1,4 @@
-package patterns.strategy.os;
+package patterns.behavioral.strategy.os;
 
 public class Andriod implements Os {
 
