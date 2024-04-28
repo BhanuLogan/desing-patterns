@@ -20,20 +20,17 @@ public class MementoPatternService implements DesignPatternService {
         github.addProject(ironbank);
         github.addProject(bumblebee);
 
-        ironbank.upgradeVersion();
-        ironbank.upgradeVersion();
+        github.commit(ib, "initial commit");
+        github.commit(bb, "initial commit");
 
         System.out.println(ironbank);
-
-        github.takeSnapshot(ib);
-
-        ironbank.upgradeVersion();
-        ironbank.upgradeVersion();
+        System.out.println(bumblebee);
+        github.commit(ib, "file structure was added");
+        github.commit(ib, "utilities were added");
+        
         System.out.println(ironbank);
 
-        bumblebee.upgradeVersion();
-
-        github.undo();
+        github.rollback();
 
         System.out.println("AFTER UNDO - ");
         System.out.println(ironbank);
