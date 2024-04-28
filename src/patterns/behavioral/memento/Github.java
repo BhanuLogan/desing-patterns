@@ -14,19 +14,20 @@ public class Github implements CareTaker {
     }
 
     @Override
-    public void takeSnapshot(String projectName) {
+    public void commit(String projectName, String message) {
         Project project = projects.get(projectName);
         ProjectSnapshot snapshot = new ProjectSnapshot(project);
-        history.add(snapshot);
+        history.push(snapshot);
+        project.commit(message);
     }
 
     @Override
-    public void undo() {
+    public void rollback() {
         if(history.isEmpty()) return ;
 
         ProjectSnapshot snapshot = history.pop(); 
         Project project = projects.get(snapshot.getName());
-        project.restore(snapshot);
+        project.rollback(snapshot);
     }
 
     @Override
